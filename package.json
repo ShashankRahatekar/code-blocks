@@ -1,0 +1,12 @@
+{
+  "name": "code-blocks",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/ShashankRahatekar/code-blocks.git",
+  "author": "Shashank R <rahatekars@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ]
+}
