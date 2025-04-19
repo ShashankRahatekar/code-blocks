@@ -6,6 +6,9 @@
   "author": "Shashank R <rahatekars@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "npm start -w @apps/frontend | npm run dev -w @apps/backend"
+  },
   "workspaces": [
     "apps/*"
   ]

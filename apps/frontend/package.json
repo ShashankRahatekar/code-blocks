@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "@apps/frontend",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",

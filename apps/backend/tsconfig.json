@@ -1,14 +1,14 @@
 {
     "compilerOptions": {
-        "target": "ES6",
-        "module": "ESNext",
-        "jsx": "react-jsx",
+        "target": "ES2019",
+        "module": "CommonJS",
+        "outDir": "dist",
+        // "rootDir": "src",
         "strict": true,
-        "moduleResolution": "node",
         "esModuleInterop": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
-        "outDir": "dist",
+        "resolveJsonModule": true,
         "baseUrl": ".",
         "paths": {
             "@definitions/*": [
@@ -16,9 +16,5 @@
             ]
         }
     },
-    "include": [
-        "src",
-        "services/utils",
-        "services/request.ts"
-    ]
+    "include": ["src"]
 }
