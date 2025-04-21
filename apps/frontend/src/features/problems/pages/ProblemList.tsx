@@ -14,6 +14,8 @@ const HomePage = () => {
     const fetchProblems = async () => {
       try {
         const problems = await ProblemService.getProblems();
+        console.log({problems});
+        
         setProblems(problems);
       } catch (error) {
         console.error('Error fetching problems:', error);

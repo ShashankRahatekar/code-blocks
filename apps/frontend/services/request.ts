@@ -13,7 +13,7 @@ class Requestmaker {
       const response = await this.get(url);
       if (!response.ok) throw new Error('Network response was not ok');
       const data = await response.json();
-      return data;
+      return data.data;
     } catch (error: any) {
       throw new Error(error.message || 'Something went wrong');
     }
