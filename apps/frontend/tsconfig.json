@@ -13,12 +13,13 @@
         "paths": {
             "@definitions/*": [
                 "../definitions/*"
-            ]
+            ],
+            "@/*": ["src/*"],
+            "@services/*": ["services/*"]
         }
     },
     "include": [
         "src",
-        "services/utils",
-        "services/request.ts"
+        "services"
     ]
 }

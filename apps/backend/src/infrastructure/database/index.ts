@@ -7,8 +7,8 @@ class DbInit {
         return data;
     }
 
-    static find(cb: any): Problem | undefined {
-        return data.find(cb);
+    static find(key: string): Problem | undefined {
+        return data.find(item => item.id === key);
     }
 
     static filter(cb: any): Array<Problem> {

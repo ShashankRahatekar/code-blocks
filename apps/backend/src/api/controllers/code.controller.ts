@@ -5,7 +5,7 @@ export const getProblemById = (req: Request, res: Response) => {
     const {id} = req.params;
     console.log({id});
     
-    const result = DbInit.find((item: any) => item.id === id);
+    const result = DbInit.find(id);
     res.status(200).json({data: result});
 }
 
