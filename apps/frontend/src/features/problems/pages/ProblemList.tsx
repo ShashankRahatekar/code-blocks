@@ -14,6 +14,8 @@ const HomePage = () => {
     const fetchProblems = async () => {
       try {
         const problems = await ProblemService.getProblems();
+        console.log({problems});
+        
         setProblems(problems);
       } catch (error) {
         console.error('Error fetching problems:', error);
@@ -26,6 +28,9 @@ const HomePage = () => {
   }, []);
 
   if (loading) return <div className="p-4">Loading...</div>;
+
+  console.log({problems});
+  
 
   return (
     <div className="p-6">
