@@ -1,11 +1,15 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.tsx',
+    entry: {
+        app: './src/index.tsx'
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.[contenthash].js',
+        globalObject: 'self', // Needed for web workers
         clean: true,
         publicPath: '/'
     },
@@ -32,6 +36,10 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: 'public/index.html',
+        }),
+        new MonacoWebpackPlugin({
+            filename: '[name].worker.bundle.js',
+            languages: ['javascript', 'typescript']
         })
     ],
     devServer: {

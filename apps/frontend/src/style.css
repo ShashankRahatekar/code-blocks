@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.Editor {
+	width: 48vw;
+    min-height: 40vw;
+	/* height: 60vh; */
+}

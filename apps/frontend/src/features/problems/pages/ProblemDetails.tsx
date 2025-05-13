@@ -1,14 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useReducer, useRef, useState } from "react";
 import {useParams} from 'react-router-dom';
 import ProblemService from '@services/problemsServices';
-import MonacoEditor from 'monaco-editor';
+import CodeEditor from "@/components/CodeEditor";
 
 type ParamsT = {
     problemId: string
 };
-
 const ProblemDetailsPage = (props: any): React.JSX.Element => {
-    console.log(props);
     const params = useParams<ParamsT>();
     console.log(params);
 
@@ -23,8 +21,11 @@ const ProblemDetailsPage = (props: any): React.JSX.Element => {
         getProductDetails();
     }, [params]);
     
-    return <div>
-        This is problem statement
+    return <div className="grid grid-cols-2 gap-4">
+        <div> This is problem statement </div>
+        <div> 
+            <CodeEditor code={`function hello() {\n console.log("hello");\n }`} />
+        </div>
     </div>
 }
 
