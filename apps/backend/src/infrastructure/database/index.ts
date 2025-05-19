@@ -1,6 +1,6 @@
 import type {Problem} from '@definitions/problems.types';
 
-import data from '../../../utils/leetcode.json';
+import data from '../../../utils/questions.json';
 
 class DbInit {
     static getAll(): Array<Problem> {

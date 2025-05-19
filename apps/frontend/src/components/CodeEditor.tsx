@@ -32,6 +32,8 @@ const CodeEditor = (props: CodeEditorPropsT) => {
 
     useEffect(() => {
         if(monacoEl) {
+            console.log(props.code);
+            
             setEditor(editor => {
                 if(editor) return editor;
                 return monaco.editor.create(monacoEl.current!, {
@@ -44,6 +46,10 @@ const CodeEditor = (props: CodeEditorPropsT) => {
 
         return () => editor?.dispose();
     }, [monacoEl.current]);
+
+    useEffect(() => {
+        editor?.setValue(props?.code || "");
+    }, [props.code]);
 
     return <div id="editor" className="Editor" ref={monacoEl}></div>
 }

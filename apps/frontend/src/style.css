@@ -5,6 +5,34 @@
 
 .Editor {
 	width: 48vw;
-    min-height: 40vw;
+    min-height: 80vh;
 	/* height: 60vh; */
+}
+
+.problem-statement-section {
+	overflow-y: auto;
+	max-height: 482px;
+}
+
+.section-header {
+	margin-top: 12px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.section-details {
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.code-editor-container {
+	min-height: 30vw;
+	border: 1px solid #d6d6d6;
+}
+
+.submit-button {
+	padding: 4px;
+	min-width: 86px;
+	background-color: blue;
+	color: #d6d6d6;
 }

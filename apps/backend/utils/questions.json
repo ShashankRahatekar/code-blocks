@@ -1,0 +1,512 @@
+[
+    {
+        "id": "1",
+        "title": "Find First Non-Repeating Character",
+        "question": "Given a string s, find the first non-repeating character in it and return its index. If it doesn't exist, return -1.",
+        "examples": [
+            "Input: s = 'leetcode'",
+            "Output: 0",
+            "Explanation: The first non-repeating character is 'l', which appears at index 0.",
+            "Input: s = 'loveleetcode'",
+            "Output: 2",
+            "Explanation: The first non-repeating character is 'v', which appears at index 2.",
+            "Input: s = 'aabb'",
+            "Output: -1",
+            "Explanation: Every character repeats."
+        ],
+        "constraints": [
+            "1 <= s.length <= 10^5",
+            "s consists of only lowercase English letters."
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "s": "leetcode"
+                },
+                "output": 0
+            },
+            {
+                "input": {
+                    "s": "loveleetcode"
+                },
+                "output": 2
+            },
+            {
+                "input": {
+                    "s": "aabb"
+                },
+                "output": -1
+            }
+        ],
+        "starter-code": "function firstUniqChar(s) {\n  // Write your code here\n}\n\nconsole.log(firstUniqChar('leetcode')); // Output: 0",
+        "difficulty": "Easy"
+    },
+    {
+        "id": "2",
+        "title": "Valid Mountain Array",
+        "question": "Given an array of integers arr, return true if it is a valid mountain array. Otherwise, return false.\nA mountain array must have an increasing sequence followed by a decreasing sequence and at least three elements.",
+        "examples": [
+            "Input: arr = [2,1]",
+            "Output: false",
+            "Explanation: No increasing then decreasing pattern.",
+            "Input: arr = [3,5,5]",
+            "Output: false",
+            "Explanation: No strict increase then decrease.",
+            "Input: arr = [0,3,2,1]",
+            "Output: true",
+            "Explanation: Strictly increases then strictly decreases."
+        ],
+        "constraints": [
+            "1 <= arr.length <= 10^4",
+            "0 <= arr[i] <= 10^4"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "arr": [
+                        2,
+                        1
+                    ]
+                },
+                "output": false
+            },
+            {
+                "input": {
+                    "arr": [
+                        3,
+                        5,
+                        5
+                    ]
+                },
+                "output": false
+            },
+            {
+                "input": {
+                    "arr": [
+                        0,
+                        3,
+                        2,
+                        1
+                    ]
+                },
+                "output": true
+            }
+        ],
+        "starter-code": "function validMountainArray(arr) {\n  // Write your code here\n}\n\nconsole.log(validMountainArray([0,3,2,1])); // Output: true",
+        "difficulty": "Easy"
+    },
+    {
+        "id": "3",
+        "title": "Sample Problem 3",
+        "question": "This is a placeholder for question 3. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput3",
+            "Output: someOutput3",
+            "Explanation: Placeholder explanation for question 3"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_3"
+                },
+                "output": "example_output_3"
+            }
+        ],
+        "starter-code": "function sampleFunction3(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction3('example_input')); // Output: example_output",
+        "difficulty": "Easy"
+    },
+    {
+        "id": "4",
+        "title": "Sample Problem 4",
+        "question": "This is a placeholder for question 4. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput4",
+            "Output: someOutput4",
+            "Explanation: Placeholder explanation for question 4"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_4"
+                },
+                "output": "example_output_4"
+            }
+        ],
+        "starter-code": "function sampleFunction4(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction4('example_input')); // Output: example_output",
+        "difficulty": "Medium"
+    },
+    {
+        "id": "5",
+        "title": "Sample Problem 5",
+        "question": "This is a placeholder for question 5. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput5",
+            "Output: someOutput5",
+            "Explanation: Placeholder explanation for question 5"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_5"
+                },
+                "output": "example_output_5"
+            }
+        ],
+        "starter-code": "function sampleFunction5(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction5('example_input')); // Output: example_output",
+        "difficulty": "Easy"
+    },
+    {
+        "id": "6",
+        "title": "Sample Problem 6",
+        "question": "This is a placeholder for question 6. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput6",
+            "Output: someOutput6",
+            "Explanation: Placeholder explanation for question 6"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_6"
+                },
+                "output": "example_output_6"
+            }
+        ],
+        "starter-code": "function sampleFunction6(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction6('example_input')); // Output: example_output",
+        "difficulty": "Medium"
+    },
+    {
+        "id": "7",
+        "title": "Sample Problem 7",
+        "question": "This is a placeholder for question 7. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput7",
+            "Output: someOutput7",
+            "Explanation: Placeholder explanation for question 7"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_7"
+                },
+                "output": "example_output_7"
+            }
+        ],
+        "starter-code": "function sampleFunction7(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction7('example_input')); // Output: example_output",
+        "difficulty": "Easy"
+    },
+    {
+        "id": "8",
+        "title": "Sample Problem 8",
+        "question": "This is a placeholder for question 8. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput8",
+            "Output: someOutput8",
+            "Explanation: Placeholder explanation for question 8"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_8"
+                },
+                "output": "example_output_8"
+            }
+        ],
+        "starter-code": "function sampleFunction8(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction8('example_input')); // Output: example_output",
+        "difficulty": "Medium"
+    },
+    {
+        "id": "9",
+        "title": "Sample Problem 9",
+        "question": "This is a placeholder for question 9. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput9",
+            "Output: someOutput9",
+            "Explanation: Placeholder explanation for question 9"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_9"
+                },
+                "output": "example_output_9"
+            }
+        ],
+        "starter-code": "function sampleFunction9(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction9('example_input')); // Output: example_output",
+        "difficulty": "Easy"
+    },
+    {
+        "id": "10",
+        "title": "Sample Problem 10",
+        "question": "This is a placeholder for question 10. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput10",
+            "Output: someOutput10",
+            "Explanation: Placeholder explanation for question 10"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_10"
+                },
+                "output": "example_output_10"
+            }
+        ],
+        "starter-code": "function sampleFunction10(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction10('example_input')); // Output: example_output",
+        "difficulty": "Medium"
+    },
+    {
+        "id": "11",
+        "title": "Sample Problem 11",
+        "question": "This is a placeholder for question 11. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput11",
+            "Output: someOutput11",
+            "Explanation: Placeholder explanation for question 11"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_11"
+                },
+                "output": "example_output_11"
+            }
+        ],
+        "starter-code": "function sampleFunction11(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction11('example_input')); // Output: example_output",
+        "difficulty": "Easy"
+    },
+    {
+        "id": "12",
+        "title": "Sample Problem 12",
+        "question": "This is a placeholder for question 12. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput12",
+            "Output: someOutput12",
+            "Explanation: Placeholder explanation for question 12"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_12"
+                },
+                "output": "example_output_12"
+            }
+        ],
+        "starter-code": "function sampleFunction12(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction12('example_input')); // Output: example_output",
+        "difficulty": "Medium"
+    },
+    {
+        "id": "13",
+        "title": "Sample Problem 13",
+        "question": "This is a placeholder for question 13. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput13",
+            "Output: someOutput13",
+            "Explanation: Placeholder explanation for question 13"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_13"
+                },
+                "output": "example_output_13"
+            }
+        ],
+        "starter-code": "function sampleFunction13(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction13('example_input')); // Output: example_output",
+        "difficulty": "Easy"
+    },
+    {
+        "id": "14",
+        "title": "Sample Problem 14",
+        "question": "This is a placeholder for question 14. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput14",
+            "Output: someOutput14",
+            "Explanation: Placeholder explanation for question 14"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_14"
+                },
+                "output": "example_output_14"
+            }
+        ],
+        "starter-code": "function sampleFunction14(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction14('example_input')); // Output: example_output",
+        "difficulty": "Medium"
+    },
+    {
+        "id": "15",
+        "title": "Sample Problem 15",
+        "question": "This is a placeholder for question 15. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput15",
+            "Output: someOutput15",
+            "Explanation: Placeholder explanation for question 15"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_15"
+                },
+                "output": "example_output_15"
+            }
+        ],
+        "starter-code": "function sampleFunction15(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction15('example_input')); // Output: example_output",
+        "difficulty": "Easy"
+    },
+    {
+        "id": "16",
+        "title": "Sample Problem 16",
+        "question": "This is a placeholder for question 16. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput16",
+            "Output: someOutput16",
+            "Explanation: Placeholder explanation for question 16"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_16"
+                },
+                "output": "example_output_16"
+            }
+        ],
+        "starter-code": "function sampleFunction16(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction16('example_input')); // Output: example_output",
+        "difficulty": "Medium"
+    },
+    {
+        "id": "17",
+        "title": "Sample Problem 17",
+        "question": "This is a placeholder for question 17. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput17",
+            "Output: someOutput17",
+            "Explanation: Placeholder explanation for question 17"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_17"
+                },
+                "output": "example_output_17"
+            }
+        ],
+        "starter-code": "function sampleFunction17(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction17('example_input')); // Output: example_output",
+        "difficulty": "Easy"
+    },
+    {
+        "id": "18",
+        "title": "Sample Problem 18",
+        "question": "This is a placeholder for question 18. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput18",
+            "Output: someOutput18",
+            "Explanation: Placeholder explanation for question 18"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_18"
+                },
+                "output": "example_output_18"
+            }
+        ],
+        "starter-code": "function sampleFunction18(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction18('example_input')); // Output: example_output",
+        "difficulty": "Medium"
+    },
+    {
+        "id": "19",
+        "title": "Sample Problem 19",
+        "question": "This is a placeholder for question 19. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput19",
+            "Output: someOutput19",
+            "Explanation: Placeholder explanation for question 19"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_19"
+                },
+                "output": "example_output_19"
+            }
+        ],
+        "starter-code": "function sampleFunction19(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction19('example_input')); // Output: example_output",
+        "difficulty": "Easy"
+    },
+    {
+        "id": "20",
+        "title": "Sample Problem 20",
+        "question": "This is a placeholder for question 20. Please replace with a real-world programming challenge.",
+        "examples": [
+            "Input: someInput20",
+            "Output: someOutput20",
+            "Explanation: Placeholder explanation for question 20"
+        ],
+        "constraints": [
+            "Replace with actual constraints"
+        ],
+        "test-cases": [
+            {
+                "input": {
+                    "example": "example_input_20"
+                },
+                "output": "example_output_20"
+            }
+        ],
+        "starter-code": "function sampleFunction20(input) {\n  // Write your code here\n}\n\nconsole.log(sampleFunction20('example_input')); // Output: example_output",
+        "difficulty": "Medium"
+    }
+]

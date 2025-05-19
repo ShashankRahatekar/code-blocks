@@ -8,7 +8,7 @@ const MainLayout: React.FC = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main className="flex-1 p-4">
+      <main className="flex-1 px-4 py-2">
         <Outlet /> {/* Where nested pages will render */}
       </main>
 
